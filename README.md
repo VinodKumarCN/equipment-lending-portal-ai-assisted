@@ -3,7 +3,6 @@ Equipment Lending Portal - Phase 2 (AI-Assisted Refactor) Starter
 This package contains the refactored Phase 2 starter code. It includes:
 - backend/: improved resolvers, transaction-safe issueRequest, seed script
 - frontend/: added request pages, my-requests, admin actions
-- AI_USAGE_LOG_TEMPLATE.md and REFLECTION_TEMPLATE.md for your Phase 2 submission
 
 Run instructions:
 1. Start MongoDB locally.
