@@ -1,0 +1,7 @@
+EXAMPLE_PROMPTS.txt
+-------------------
+These are example prompts you can use with AI to assist refactor. Use them as inspiration; record actual prompts in the AI_USAGE_LOG.
+
+1) "Refactor my GraphQL resolver for issuing equipment to ensure atomic decrement of availableQty and proper error messages. Use mongoose transactions."
+2) "Generate a seed script that creates demo users and demo equipment for MongoDB using Mongoose."
+3) "Write a React page 'MyRequests' that lists current user's requests using Apollo Client and provides status."
