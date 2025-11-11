@@ -1,7 +1,33 @@
-EXAMPLE_PROMPTS.txt
--------------------
-These are example prompts you can use with AI to assist refactor. Use them as inspiration; record actual prompts in the AI_USAGE_LOG.
+# School Equipment Lending Portal - Project Execution Prompts
 
-1) "Refactor my GraphQL resolver for issuing equipment to ensure atomic decrement of availableQty and proper error messages. Use mongoose transactions."
-2) "Generate a seed script that creates demo users and demo equipment for MongoDB using Mongoose."
-3) "Write a React page 'MyRequests' that lists current user's requests using Apollo Client and provides status."
+# 1. Project Setup
+- "Generate a step-by-step guide to set up the School Equipment Lending Portal on local machine with Java 8 and Spring Boot."
+- "Provide instructions to configure MySQL database for the portal and initialize tables."
+- "Create application.properties file with database URL, username, password, and server port."
+
+# 2. Running the Application
+- "Write the command to start the Spring Boot application using Maven."
+- "Provide instructions to verify the backend server is running and accessible at localhost:8080."
+- "Generate instructions to run frontend (HTML/JS) with live server and connect to backend APIs."
+
+# 3. API Testing / Execution
+- "Create Postman collection to test all API endpoints (user registration, login, add equipment, borrow, return)."
+- "Write step-by-step commands to test borrowing workflow using curl or Postman."
+- "Provide instructions to view Swagger UI and execute API requests directly from browser."
+
+# 4. Borrowing Workflow Execution
+- "Show sequence of steps to simulate a user borrowing equipment: login → select equipment → request borrow → admin approve → mark returned."
+- "Write test cases to verify overdue calculation for equipment borrowing."
+- "Provide steps to check borrowing history and generate report of borrowed equipment."
+
+# 5. Admin Execution
+- "Write steps for admin to add new equipment, approve requests, and monitor overdue items."
+- "Provide instructions to generate reports for most borrowed equipment and user activity."
+
+# 6. Notifications and Alerts
+- "Generate instructions to run scheduled job that marks overdue items and sends email notifications."
+- "Provide testing steps to verify notification system works correctly."
+
+# 7. Full System Execution / Demo
+- "Write step-by-step instructions for a demo video showing the full system workflow from Admin and Student perspectives."
+- "Provide a checklist to ensure all functionalities (add equipment, borrow, return, overdue notifications, reports) are working before submission."
